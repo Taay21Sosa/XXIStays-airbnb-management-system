@@ -1,0 +1,94 @@
+/*-----   Root variables   -----*/
+:root {
+    -background: #fff;
+    -foreground: #fff;
+    -primary: #fff;
+    -p-foreground: #fff;
+    -secondary: #fff;
+    -s-foreground: #fff;
+    -color: #fff;
+    -border: #fff;
+    -input: #fff;
+    -ring: #fff;
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----  Stage/Scene controls   -----*/
+.window-controls Button {
+    -fx-pref-width: 25;
+    -fx-pref-height: 25;
+}
+
+.window-controls Button SVG {
+    -fx-stroke-width: 3;
+    -fx-opacity: 0.25;
+}
+
+.window-controls Button:hover SVG {
+    -fx-stroke-width: 3;
+    -fx-opacity: 0.25;
+}
+
+.window-controls-close {
+    -fx-background-color: #fff;
+    -fx-background-radius: 45%;
+}
+
+.window-controls-minimum {
+    -fx-background-color: #fff;
+    -fx-background-radius: 45%;
+}
+
+.window-controls-maximum {
+    -fx-background-color: #fff;
+    -fx-background-radius: 45%;
+}
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----   Class variables   -----*/
+.btn-hover {
+    -fx-scale-x: 1.015;
+    -fx-scale-y: 1.015;
+    -fx-scale-z: 1.015;
+}
+
+.background-radius-45 {
+    -fx-background-radius: 45%;
+}
+
+.border-radius-45 {
+    -fx-border-radius: 45%;
+}
+
+.background-radius {
+    -fx-background-radius: 45%;
+}
+
+.border-radius {
+    -fx-border-radius: 45%;
+}
+
+.cursor-pointer {
+    -fx-cursor: hand;
+}
+
+.cursor-none {
+    -fx-cursor: none;
+}
+
+.bg-trasparent {
+    -fx-background-color: transparent;
+}
+
+.opacity-0 {
+    -fx-opacity: 0;
+}
+
+.hidden {
+    -fx-display: none;
+}
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----   Class variables   -----*/
